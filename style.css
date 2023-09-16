@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #887c7c;
+}
+#f{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #a79b9b;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 50px black;
+}
+input[type='text']{
+    padding: 5px;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+input[type='number']{
+    padding: 5px;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+#btn,#btncopy{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
